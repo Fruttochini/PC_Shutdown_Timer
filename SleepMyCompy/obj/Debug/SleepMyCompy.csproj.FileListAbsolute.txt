@@ -1,0 +1,14 @@
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\bin\Debug\SleepMyCompy.exe.config
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\bin\Debug\SleepMyCompy.exe
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\bin\Debug\SleepMyCompy.pdb
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\obj\Debug\SleepMyCompy.csprojResolveAssemblyReference.cache
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\obj\Debug\MainWindow.g.cs
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\obj\Debug\App.g.cs
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\obj\Debug\SleepMyCompy_MarkupCompile.cache
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\obj\Debug\SleepMyCompy_MarkupCompile.lref
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\obj\Debug\MainWindow.baml
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\obj\Debug\SleepMyCompy.g.resources
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\obj\Debug\SleepMyCompy.Properties.Resources.resources
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\obj\Debug\SleepMyCompy.csproj.GenerateResource.Cache
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\obj\Debug\SleepMyCompy.exe
+H:\GoogleDrive_oldan88\Coding_projects\SleepMyCompy\SleepMyCompy\obj\Debug\SleepMyCompy.pdb

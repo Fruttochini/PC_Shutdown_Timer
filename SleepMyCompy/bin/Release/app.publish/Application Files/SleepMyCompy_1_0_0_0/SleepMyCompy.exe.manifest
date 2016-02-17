@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SleepMyCompy.exe" version="1.0.0.0" publicKeyToken="2a95e0c73d1fb042" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SleepMyCompy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SleepMyCompy.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SleepMyCompy.exe" size="11184">
+      <assemblyIdentity name="SleepMyCompy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CLYHEGvVTW1qZrcQ/9FXaGrIRq2gJrDfygxZwXjpbzg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SleepMyCompy.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ji8aT6+d4QyGsLkWKNdTYyE7mNtRXIN9y+Xmyl/UOJU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LENIVA\LenIvo" issuerKeyHash="99a9c94f3e6307b7d4c09494e2282fc2230b0167" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>k5WTfgZAT1QQJuAwtcF7WJfykJuGXsQvNjXphoskr7s=</DigestValue></Reference></SignedInfo><SignatureValue>TG4LKJBJ5zh9UCbAdIElATz2zi1tvK6vIyW/7h77zTtOL+O+rJ2vjzHaHbA9yq8+vsW6JchHyF3jrg6FjHBtznRLtT9+vysdVV3zP58froU6vcWKGi8TDjgQlXzIfGHAh5fwsCM4bbcBvGZ6Zfj801gYwFRKprOo3AVmJBKo7do=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1JR6xcitad895mJ91TGLfco5Nz2OHaL89TKxmjQy9LC0+pzYijY6m7oPx3LdTR3S++GkVhw10S3rByqhaoxWynpHtbwI1/ddmHVxRpzh0YbxvVccn7E8Rfgg3M/TKhtHxu8ToOY5Km3N9OetDus6uGkIx3ACJmDdi6ddAbnOAMs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bbaf248b86e935362fc45e869b90f297587bc1b530e02610544f40067e939593" Description="" Url=""><as:assemblyIdentity name="SleepMyCompy.exe" version="1.0.0.0" publicKeyToken="2a95e0c73d1fb042" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LENIVA\LenIvo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dWMMrYqL1K0d6P3wWfevDlSDwnxYeaenbh+peHKo3T8=</DigestValue></Reference></SignedInfo><SignatureValue>e30z3r8txGD0YpuFUoBPEnIMQwfEZ1hTnUzShAhzyBxxKdjbAmbxrHc7xWtrkg+ORSI5n0l8TRAXtLfeyVYNTY7Ii+Gaqz7iR/tmxfYeV938qfhNn+uMBrpLiYVH1u10QKlQz7ERrt7XMqqdWn/Kky8rIyhNGXRs++Ll0NQTezk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1JR6xcitad895mJ91TGLfco5Nz2OHaL89TKxmjQy9LC0+pzYijY6m7oPx3LdTR3S++GkVhw10S3rByqhaoxWynpHtbwI1/ddmHVxRpzh0YbxvVccn7E8Rfgg3M/TKhtHxu8ToOY5Km3N9OetDus6uGkIx3ACJmDdi6ddAbnOAMs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQV1VuGRGfbotPrzvQvYBkzDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoATABFAE4ASQBWAEEAXABMAGUAbgBJAHYAbzAeFw0xNjAxMjcxOTUwMjRaFw0xNzAxMjcwMTUwMjRaMCUxIzAhBgNVBAMeGgBMAEUATgBJAFYAQQBcAEwAZQBuAEkAdgBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUlHrFyK1p3z3mYn3VMYt9yjk3PY4dovz1MrGaNDL0sLT6nNiKNjqbug/Hct1NHdL74aRWHDXRLesHKqFqjFbKeke1vAjX912YdXFGnOHRhvG9VxyfsTxF+CDcz9MqG0fG7xOg5jkqbc30560O6zq4aQjHcAImYN2Lp10Buc4AywIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGNZhiL1oGn0ufXGtZ/0L/gUX2Jn+0gNQJ0pJas5i5SRNNHgtGD/N8A2Cl4+bCzGLutR/wDk1U6C75aywUNYK+gNdYV2lEA+cW+XfKcmE6pudazfG9/JK7Kld/Bc+BHpJiQBROBcgq3FaTMl1uqcCzSL6Aq5slMk0+1HkB3Ir8FN</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
